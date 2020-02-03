@@ -2,7 +2,7 @@ import React from 'react';
 import {NativeModules, NativeEventEmitter, Platform} from 'react-native'
 const {VideoTranscoder, VideoTranscoderProgress} = NativeModules;
 
-export default class VideoTranscoder extends React.Component {
+export default class Transcoder extends React.Component {
   static async transcode(inputFilePath, outputFilePath, width, height, fps, videoBitrate, progress) {
     let status;
     const doTranscode = () => {

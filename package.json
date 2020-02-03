@@ -1,5 +1,6 @@
 {
   "name": "react-native-video-transcoder",
+  "description": "A React Native video transcoder ffmpeg free",
   "title": "React Native Video Transcoder",
   "version": "1.0.0",
   "main": "index.js",
